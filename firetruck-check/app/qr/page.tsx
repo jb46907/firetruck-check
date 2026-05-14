@@ -12,7 +12,7 @@ export default function QRPage() {
 
             <div className="grid grid-cols-2 gap-8">
                 {vehicles.map((vehicle) => {
-                    const url = `http://localhost:3000/vehicle/${vehicle.id}`;
+                    const url = `http://firetruck-check.vercel.app/vehicle/${vehicle.id}`;
 
                     return (
                         <div
